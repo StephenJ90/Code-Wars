@@ -24,8 +24,8 @@ rules:
 
 **_Data Structures:_**  
 
-integer
-arrays
+- integer
+- arrays
 
 **_Algorithm:_**  
 
