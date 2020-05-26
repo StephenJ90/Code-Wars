@@ -7,10 +7,10 @@
 You have to create a function that takes a positive integer number and returns the next bigger number formed by the same digits.
 If no bigger number can be composed using those digits, return -1. 
 
-inputs: integer
-outputs: integer
+_inputs:_ integer  
+_outputs:_ integer
 
-rules:
+_rules:_
 - return -1 if no bigger number exists
 
 **_Examples:_**  
