@@ -1,4 +1,5 @@
 Code Wars > split arr add arr
+
 ---
 
 Split and Then Add Both Sides of an Array Together
