@@ -13,16 +13,16 @@ A Narcissistic Number is a positive number which is the sum of its own digits, e
 
 ### Examples/Test Cases
 
-narcissistic?(153) => 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153, true
-narcissistic?(1634) => 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634, true
-narcissistic?(1633) => false
+* narcissistic?(153) => 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153, true
+* narcissistic?(1634) => 1^4 + 6^4 + 3^4 + 4^4 = 1 + 1296 + 81 + 256 = 1634, true
+* narcissistic?(1633) => false
 
 ---
 
 ### Data Structures
 
-_inputs_: integers
-_outputs_: boolean
+* _inputs_: integers
+* _outputs_: boolean
 
 _rules_:
 * return true or false depending upon whether the given number is a Narcissistic number in base 10.
@@ -32,7 +32,7 @@ _rules_:
 
 ### Algorithm
 
-_mental model_: Determine whether a given number is the sum of it's own digits squared to the number of digits in the given number.
+**_mental model_**: Determine whether a given number is the sum of it's own digits squared to the number of digits in the given number.
 
 * split the input number into an array of digits
 * find the size of the array
